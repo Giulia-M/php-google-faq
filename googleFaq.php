@@ -3,36 +3,36 @@
 $lista = [
     [
         "question" => "Come state implementando la recente decisione della Corte di giustizia dell'Unione europea (CGUE) relativa al diritto all'oblio?",
-        "answer" => "<p class=marginBottParagraph>
-                    La recente   <a class=colorBlue href=https://curia.europa.eu/juris/document/document.jsf?text=&docid=152065&amppageIndex=0&doclang=it&mode=lst&dir=&occ=first&part=1&cid=276332 target=_blank>
-                                    decisione della Corte di giustizia dell'Unione europea 
-                                    </a>
+        "answer" => '<p class="marginBottParagraph">
+                    La recente   <a class="colorBlue" href="https://curia.europa.eu/juris/document/document.jsf?text=&docid=152065&amppageIndex=0&doclang=it&mode=lst&dir=&occ=first&part=1&cid=276332" target="_blank">
+                                    decisione della Corte di giustizia dell\'Unione europea</a>
                     ha profonde conseguenze per i motori di ricerca in Europa. 
                     La Corte ha stabilito che alcuni utenti hanno il diritto di chiedere ai motori di ricerca come Google di rimuovere risultati relativi a chiavi di ricerca
                     che includono il proprio nome. Per poter essere rimossi, i risultati visualizzati devono essere inadeguati, irrilevanti o non più rilevanti, o eccessivi.
-                    <br>
-                    </p>
-                    <p class=marginBottParagraph>
-                    Da quando questa decisione è stata pubblicata il 13 maggio 2014, abbiamo lavorato incessantemente per uniformarci a essa. Si tratta di
-                    una procedura complessa perché dobbiamo valutare ogni singola richiesta e effettuare un bilanciamento tra il diritto dell'individuo a
-                    controllare i suoi dati personali ed il diritto di tutti di conoscere e distribuire le informazioni.
-                    <br>
+                    
                     </p>
 
-                    <p class=marginBottParagraph>
+                    <p class="marginBottParagraph">
+                    Da quando questa decisione è stata pubblicata il 13 maggio 2014, abbiamo lavorato incessantemente per uniformarci a essa. Si tratta di
+                    una procedura complessa perché dobbiamo valutare ogni singola richiesta e effettuare un bilanciamento tra il diritto dell\'individuo a
+                    controllare i suoi dati personali ed il diritto di tutti di conoscere e distribuire le informazioni.
+                    
+                    </p>
+
+                    <p class="marginBottParagraph">
                     Per presentare una richiesta di rimozione, compila questo 
-                    <a class=colorBlue href=https://support.google.com/legal/contact/lr_eudpa?product=websearch&amp;hl=it target=_blank>modulo web.</a>
+                    <a class="colorBlue" href="https://support.google.com/legal/contact/lr_eudpa?product=websearch&amp;hl=it" target="_blank">modulo web.</a>
                     Riceverai una risposta automatica che conferma la ricezione
-                    della tua richiesta. Dopodiché valuteremo il tuo caso (tieni presente che potrebbe occorrere un po' di tempo perché abbiamo già ricevuto
+                    della tua richiesta. Dopodiché valuteremo il tuo caso (tieni presente che potrebbe occorrere un po\' di tempo perché abbiamo già ricevuto
                     tante richieste simili). Nel valutare la richiesta, considereremo se i risultati includono informazioni obsolete relative alla tua vita privata.
                     Considereremo inoltre se vi è un interesse pubblico a che le informazioni rimangano nei nostri risultati delle ricerche, ad esempio se riguardano
                     frodi finanziarie, negligenza professionale, condanne penali o la tua condotta pubblica in relazione a un pubblico ufficio (eletto o non eletto). 
                     Queste valutazioni sono complesse e, in quanto organizzazione privata, potremmo non essere nella posizione giusta per prendere decisioni in merito 
-                    al tuo caso. Se non sei d'accordo con la nostra valutazione, puoi rivolgerti all'Autorità garante per la protezione dei dati personali nel tuo paese.
-                    <br>
+                    al tuo caso. Se non sei d\'accordo con la nostra valutazione, puoi rivolgerti all\'Autorità garante per la protezione dei dati personali nel tuo paese.
+                    
                     </p>
                     
-                    <p class=marginBottParagraph>
+                    <p class="marginBottParagraph">
 
                     Nei prossimi mesi lavoreremo a stretto contatto con le autorità per la protezione dei dati e con altre autorità per perfezionare il nostro approccio.
                     La decisione della CGUE rappresenta un cambiamento significativo per i motori di ricerca. Siamo preoccupati per le sue conseguenze, ma riteniamo 
@@ -40,13 +40,13 @@ $lista = [
                     <br>
                     </p>
 
-                    <p class=marginBottParagraph>
+                    <p class="marginBottParagraph">
 
                     Quando cerchi un nome, potresti trovare una notifica in cui viene spiegato che i risultati potrebbero essere stati modificati nel rispetto delle 
                     leggi europee per la protezione dei dati. Mostriamo questa notifica agli utenti europei quando cercano la maggior parte dei nomi, non soltanto le
                     pagine che sono state soggette a una rimozione.
 
-                    </p>",
+                    </p>',
 
     ],
     [
@@ -235,11 +235,37 @@ $lista = [
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Faq</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
+    <header id="header_fixed">
+        <div class="padding d-flex ">
+            <div class="d-flex flex"> 
+                <div class="flex">
+                    <a class="d-flex" href="https://policies.google.com/?authuser=0" target="_blank">
+    
+                        <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="logo google">
+                        <span class="privacy">Privacy e Termini</span>
+    
+                    </a>
+
+                </div>
+                <div class="d-flex">
+                   
+
+                    <i class="fas fa-th iconGrid"></i>
+                    
+                    
+                    <img class="circle" src="https://lh3.googleusercontent.com/ogw/ADGmqu8xBXYGcjAv_m8nVKXsVR8ELfgLYP1qqekTsVlq=s32-c-mo" alt="">
+                    
+                </div>
+            </div>
+        </div>
+    </header>
     <div class="wrapper">
 
 
@@ -253,11 +279,8 @@ $lista = [
             </h2>
 
             <div>
-                <p>
-                    <?php echo $currentItem["answer"] ?>
-                </p>
-
-              
+                <?php echo $currentItem["answer"] ?>
+                
             </div>
 
 
@@ -265,42 +288,22 @@ $lista = [
             <?php
             
                 if(key_exists("subtitle", $currentItem)) {
-                  foreach($currentItem["subtitle"] as $key => $value) {
-                    //   var_dump($currentItem);
-                    //   echo $key;
-                    //   echo $value;
+                  
             ?>
+ 
+                <h3>
+                    <?php echo $currentItem["subtitle"]["questionSubtitle"] ?>
+                </h3>
 
-                    <?php
-                    if($key == "questionSubtitle") {
-                    ?>
-                        <h3>
-                            <?php echo $value ?>
-                        </h3>
-                    <?php
-                    }
-                    ?>
-
-                    <?php
-                    if($key == "answerOfSubtitle") {
-                    ?>
-                        <p>
-                            <?php echo $value ?>
-                        </p>
-                    <?php
-                    }
-                    ?>
-            
-                    
-
-                   
+                <div>
+                    <?php echo $currentItem["subtitle"]["answerOfSubtitle"] ?>
+                </div>
+                 
             <?php
                 }
-            }
             ?>
 
         <?php
-
         }
         ?>
 
