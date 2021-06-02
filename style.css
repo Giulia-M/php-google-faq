@@ -1,0 +1,56 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.wrapper {
+    max-width: 978px;
+    margin: 0 auto;
+    padding: 32px;
+
+} 
+
+.colorBlue, .colorBlue:hover, a:visited {
+    color: #3367d6;
+}
+
+.colorBlue {
+    text-decoration: none;
+    color: #2962ff;
+}
+.marginBottParagraph {
+    margin-bottom: 10px;
+    line-height: 24px;
+    padding-top: 20px;
+}
+
+h2 {
+    color: #3c4043;
+    font-family: 'Google Sans',sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0;
+    padding: 64px 0 0 0;
+}
+.sortedList {
+
+    margin: 0 0 0 16px;
+    padding: 0;
+}
+.listItem {
+    padding-top: 12px;
+
+    line-height: 24px;
+    padding-left: 16px;
+}
+h3 {
+    color: #3c4043;
+    font-family: 'Google Sans',sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    margin: 0;
+    padding: 52px 0 0 0;
+}
